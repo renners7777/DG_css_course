@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+/* buttons: font-size using rem and padding using em */
+
+main {
+    width: 50vw;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    width: 40ch; /* Sets width by number of characters */
+}
