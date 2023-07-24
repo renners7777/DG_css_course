@@ -16,7 +16,8 @@ body {
   grid-template-areas: 
     "hd hd hd hd hd hd hd hd hd"
     "mn mn mn mn mn mn mn sb sb"
-    "ft ft ft ft ft ft ft ft ft"
+    "ft ft ft ft ft ft ft ft ft";
+    column-gap: 0.5rem;
 }
 
 .el {
